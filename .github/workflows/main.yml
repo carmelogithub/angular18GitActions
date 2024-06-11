@@ -1,10 +1,10 @@
-name:Prueba Testing
+name: Prueba Testing
 on:
   push:
-    branches:[ "master" ]
+    branches: [ "master" ]
 jobs:
   build:
-    runs-on:ubuntu
+    runs-on: ubuntu
     steps:
     - name: Comprobar respositorio
       uses: actions/checkout@v2
