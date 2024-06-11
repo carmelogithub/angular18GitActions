@@ -8,3 +8,7 @@ jobs:
     steps:
     - name: Comprobar respositorio
       uses: actions/checkout@v2
+    - name: Configurar NodeJS
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20'
